@@ -1,19 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!-- 
-Copyright 2017 Tilman Griesel. tilmangriesel.de
-
-Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the "Software"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:
-
-The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
-
-THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
- -->
+<!-- QtCreator  Meridian Theme https://github.com/TilmanGriesel/qt-creator-meridian -->
 <style-scheme version="1.0" name="Meridian">
   <style name="Text" foreground="#99b9c8" background="#232525"/>
   <style name="Link" foreground="#589df6"/>
   <style name="Selection" foreground="#ffffff" background="#583d96"/>
   <style name="LineNumber" foreground="#37474f" background="#232525"/>
   <style name="SearchResult" background="#425f44"/>
+  <style name="SearchResultAlt1" foreground="#000033" background="#b6ccff"/>
+  <style name="SearchResultAlt2" foreground="#330000" background="#ffb6cc"/>
+  <style name="SearchResultContainingFunction"/>
   <style name="SearchScope" background="#214283"/>
   <style name="Parentheses" foreground="#ffea00" background="#444444" bold="true"/>
   <style name="ParenthesesMismatch" foreground="#ffffff" background="#282024" italic="true"/>
@@ -26,7 +21,9 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLI
   <style name="Number" foreground="#6897bb"/>
   <style name="String" foreground="#64ffda"/>
   <style name="Type" foreground="#9574a6"/>
+  <style name="Namespace" foreground="#9574a6"/>
   <style name="Local"/>
+  <style name="Parameter" foreground="#4199de"/>
   <style name="Global"/>
   <style name="Field" foreground="#ffc66d"/>
   <style name="Static" foreground="#cb6ecb"/>
@@ -35,11 +32,14 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLI
   <style name="Keyword" foreground="#69f0ae" bold="true"/>
   <style name="PrimitiveType" foreground="#ffc107"/>
   <style name="Operator" foreground="#9e8f62"/>
+  <style name="Overloaded Operator" foreground="#00acc9"/>
+  <style name="Punctuation"/>
   <style name="Preprocessor" foreground="#5983aa"/>
+  <style name="Macro" foreground="#ffc66d"/>
   <style name="Label" foreground="#e76000"/>
   <style name="Comment" foreground="#546e7a" italic="true"/>
   <style name="Doxygen.Comment" foreground="#737dd5"/>
-  <style name="Doxygen.Tag" foreground="#4e5ab3"/>
+  <style name="Doxygen.Tag" foreground="#7793e4"/>
   <style name="VisualWhitespace" foreground="#2e3437"/>
   <style name="QmlLocalId" foreground="#b388ff" italic="true"/>
   <style name="QmlExternalId" foreground="#aaaaff" italic="true"/>
@@ -64,11 +64,28 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLI
   <style name="DiffDestLine" foreground="#0d1e15" background="#69f0ae"/>
   <style name="DiffDestChar" foreground="#001e0f" background="#00e676"/>
   <style name="LogChangeLine" foreground="#ff1744"/>
+  <style name="LogAuthorName" foreground="#41c8f7"/>
+  <style name="LogCommitDate" foreground="#16c349"/>
+  <style name="LogCommitHash" foreground="#ff3866"/>
+  <style name="LogCommitSubject"/>
+  <style name="LogDecoration" foreground="#ff00ff"/>
   <style name="Warning" underlineColor="#ffbe00" underlineStyle="SingleUnderline"/>
   <style name="WarningContext" underlineColor="#ffbe00" underlineStyle="DotLine"/>
   <style name="Error" underlineColor="#ff0000" underlineStyle="SingleUnderline"/>
   <style name="ErrorContext" underlineColor="#ff0000" underlineStyle="DotLine"/>
   <style name="Declaration"/>
-  <style name="C_OUTPUT_ARGUMENT"/>
+  <style name="FunctionDefinition"/>
+  <style name="OutputArgument" italic="true"/>
+  <style name="StaticMember"/>
+  <style name="CocoCodeAdded"/>
+  <style name="CocoPartiallyCovered" foreground="#ad9105"/>
+  <style name="CocoNotCovered" foreground="#ff1e3c"/>
+  <style name="CocoFullyCovered" foreground="#00ff00"/>
+  <style name="CocoManuallyValidated" foreground="#7fd2ff"/>
+  <style name="CocoDeadCode" foreground="#ff00ff"/>
+  <style name="CocoExecutionCountTooLow" foreground="#ff1e3c"/>
+  <style name="CocoNotCoveredInfo" foreground="#ff1e3c"/>
+  <style name="CocoCoveredInfo" foreground="#00ff00"/>
+  <style name="CocoManuallyValidatedInfo" foreground="#6fc8ff"/>
   <style name="LastStyleSentinel"/>
 </style-scheme>
