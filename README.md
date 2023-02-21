@@ -1,7 +1,7 @@
-# qt-creator-meridian
-A dark color scheme for Qt Creator 4.x
+# Qt Creator Meridian Theme
+A dark color scheme for Qt Creator
 
-I developed this theme while working with Qt Creator for a few years. It suits my needs and taste and I want to share it with the world now. Please note that it is made for Qt Creator 4.
+I developed this theme while working with Qt Creator for a few years. It suits my needs and taste and I want to share it with the world.
 
 ----
 
